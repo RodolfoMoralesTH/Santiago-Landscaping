@@ -202,6 +202,10 @@ svg{
 .navli{
     margin-right: 2rem;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 @media only screen and (min-width: 1600px) {
     .header{
