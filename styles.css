@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* $color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000; */
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+   
+    line-height: 1.7;
+}
+.header{
+    height: 90vh;
+    background-attachment:fixed;
+    background-image: linear-gradient(to right bottom,rgba(116, 116, 116, 0.3), rgba(31, 31, 31, 0.3)), url('img/grass.jpg');
+    
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    
+}
+
+.header__text{
+    color: white;
+    position: absolute;
+    top:40%;
+    left:10%;
+}
+.header__text-title{
+    font-size: 7rem;
+    font-weight: bold;
+}
+.header__text-span{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.nav{
+    position: fixed;
+    z-index: 10;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.nav-item{
+    font-size: 2rem;
+    font-weight: 500;
+}
+svg{
+    bottom: 0;
+    position: absolute;
+    display: block;
+}
+.main{
+    width:100%;
+    padding-top: 8rem;
+    margin-top: 2rem;
+}
+.section__title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(255, 102, 0);
+
+    margin-bottom: 4rem;
+}
+.services-section{
+    width: 100%;
+    padding: 1rem 1rem;
+}
+.services-options{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.services{
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+}
+.option{
+    padding: 1.5rem 1.5rem;
+    width: 33.3%;
+}
+.optionpar{
+    font-size: 1.3rem;
+}
+.sectionText{
+    font-size: 1.3rem;
+}
+.option__title{
+    color:rgb(37, 37, 37);
+    font-size: 1.7rem;
+    font-weight:700;
+    line-height: 2.5rem;
+}
+.option__image{
+    width: 100%;
+    border-radius: 3px;
+    transition: all .2s;
+}
+.option__image:hover{
+    transform:scale(1.01);
+}
+
+
+.about{
+    background-color: rgb(93, 184, 245);
+    width: 100%;
+    padding: 10rem 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutFlex{
+    width: 45%;
+    padding:1rem 1rem;
+    
+}
+.aboutTitle{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.circleImage{
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    float: right;
+}
+.contact{
+    height: 50vh;
+    background-attachment:fixed;
+    background-image: url('img/leaf.jpg');
+    
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.customers{
+    height: 50vh;
+    background-color: #fff;
+    padding: 5rem 5rem;
+}
+
+
+.contact__text{
+    color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) ;
+}
+.contact__text-title{
+    font-size: 7rem;
+    font-weight: bold;
+}
+.contact__text-span{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.footer{
+    
+    background-color: rgb(93, 184, 245);
+    
+    position: relative;
+    padding: 5rem 5rem;
+}
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-footer{
+}
+.nav-footer{
+    z-index: 10;
+    padding: 3rem 2rem;
+    
+    width: 100%;
+}
+
+.services-bottom{
+    display: block;
+    
+}
+.navli{
+    margin-right: 2rem;
+}
+
+@media only screen and (min-width: 1600px) {
+    .header{
+        
+        background-position: top;
+        
+        
+    }
+  }
